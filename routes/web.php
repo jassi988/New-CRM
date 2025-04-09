@@ -8,3 +8,6 @@ Route::get('/', function () {
 Route::get('/myroue',function(){
     return view('welcome');
 });
+Route::get('my-data',function(){
+    return view('welcome');
+});
